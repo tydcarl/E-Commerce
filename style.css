@@ -245,10 +245,11 @@ button:active {
 #highlights:before {
     top: 1px;
     transform: translateY(-100%);
+    z-index: 1;
 }
 
 #highlights:after {
- 
+    z-index: -1;
     transform: translateY(100%) rotate(180deg);
     bottom: 1px;
 
